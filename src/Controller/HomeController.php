@@ -172,7 +172,7 @@ public function horaireDuSiteRoute()
     // Terminus reservation aller simple 
     /**
      * @Route("/terminusAllerSimple", name="terminusAllerSimple")
-     */
+    */
     public function terminusReservationRoute()
     {
         return $this->render('transport/terminusAllerSimple.html.twig',[
@@ -181,7 +181,10 @@ public function horaireDuSiteRoute()
 
     }
 
-    
+ /////////       TEST MAIL    ///////////////////////
+  
+
+    /////////////          FIN  TEST MAIL               ////////////////
   
 
 ///////////////////////////////// TWIG CONFIRMATION ALLER RETOUR   ////////////////////////////////////
